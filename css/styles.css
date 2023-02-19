@@ -232,7 +232,7 @@ ul {
 
 /*for section 2*/
 
-.section-two{
+.section-two .container{
     padding-top: 120px;
     padding-bottom: 120px;
     
