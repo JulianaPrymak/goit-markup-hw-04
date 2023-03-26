@@ -61,6 +61,7 @@ ul {
     background: var(--primary-white-color);
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-web {
@@ -186,7 +187,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1400px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 192px;
@@ -484,7 +485,7 @@ ul {
 
 /* For Customers*/
 
-.customers .container{
+.customers {
     padding-top: 130px;
     padding-bottom: 120px;
     
@@ -541,17 +542,15 @@ ul {
     border-radius: 4px;
     color: var(--active-link-color);
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 12px 24px;
     height: 48px;
     text-align: center;
     letter-spacing: 0.04em;
-    flex: none;
-    flex-grow: 0;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .title-porto{
@@ -622,7 +621,6 @@ ul {
 }
 
 .portfolio-list-link:is(:hover, :focus) {
-    cursor: pointer;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -630,12 +628,13 @@ ul {
     text-align: left;
     box-sizing: border-box;
     margin-bottom: 8px;
+    
 }
 
 .text2 {
     text-align: left;
     box-sizing: border-box;
-    
+    color: var(--primary-text-color);
 }
 
 .card-portfolio{
